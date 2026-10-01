@@ -1,0 +1,13 @@
+{"line":1,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","min"]}
+{"line":2,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","min"]}
+{"line":3,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","m^2"]}
+{"line":4,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","m^2"]}
+{"line":5,"status":"reject","code":"AMBIGUOUS_NUMBER"}
+{"line":6,"status":"reject","code":"AMBIGUOUS_NUMBER"}
+{"line":7,"status":"reject","code":"UNIT_MISMATCH"}
+{"line":8,"status":"reject","code":"INVALID_RANGE"}
+{"line":9,"status":"reject","code":"INVALID_RANGE"}
+{"line":10,"status":"reject","code":"OUT_OF_RANGE"}
+{"line":11,"status":"reject","code":"OUT_OF_RANGE"}
+{"line":12,"status":"reject","code":"OUT_OF_RANGE"}
+{"line":13,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","min"]}

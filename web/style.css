@@ -1,0 +1,87 @@
+:root {
+  --ok: #1a7f37;
+  --empty: #8a8a8a;
+  --reject: #d1242f;
+  --reject-bg: #fff1f0;
+  --border: #e5e7eb;
+  --muted: #6b7280;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  color: #1f2328;
+  background: #fafafa;
+}
+
+header {
+  padding: 20px 28px 16px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+h1 { margin: 0 0 10px; font-size: 20px; }
+
+#summary { font-size: 15px; }
+#summary .rate { font-size: 22px; font-weight: 600; margin-right: 12px; }
+
+#distribution {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 13px;
+}
+#distribution .pill {
+  display: inline-flex;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--reject-bg);
+  color: var(--reject);
+}
+#distribution .pill.empty-pill { background: #f3f4f6; color: var(--empty); }
+
+main { padding: 16px 28px 40px; }
+
+table { border-collapse: collapse; width: 100%; background: #fff; }
+
+th, td {
+  border-bottom: 1px solid var(--border);
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+  font-size: 13px;
+}
+
+th { background: #f6f8fa; position: sticky; top: 118px; }
+
+.col-line { width: 56px; color: var(--muted); }
+.col-value, .col-unit, .col-status { white-space: nowrap; }
+
+td.col-text { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; word-break: break-all; }
+
+tr.reject { background: var(--reject-bg); }
+tr.reject td { color: var(--reject); }
+tr.empty td { color: var(--empty); }
+tr.ok .col-status { color: var(--ok); }
+
+.code { font-weight: 600; }
+.candidates { margin-left: 4px; color: var(--muted); }
+
+.pager { margin-top: 14px; display: flex; align-items: center; gap: 14px; }
+#load-more {
+  padding: 6px 16px;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+#load-more:hover { background: #f3f4f6; }
+#rendered-count { color: var(--muted); font-size: 13px; }

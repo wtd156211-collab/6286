@@ -1,0 +1,63 @@
+{"line":1,"status":"ok","value":15000,"unit":null,"normalized":"15000"}
+{"line":2,"status":"ok","value":7200,"unit":"s","normalized":"7200 s"}
+{"line":3,"status":"ok","value":3000,"unit":"m","normalized":"3000 m"}
+{"line":4,"status":"ok","value":1234567,"unit":null,"normalized":"1234567"}
+{"line":5,"status":"ok","value":3.14,"unit":"m","normalized":"3.14 m"}
+{"line":6,"status":"ok","value":50,"unit":"%","normalized":"50 %"}
+{"line":7,"status":"ok","value":50,"unit":"%","normalized":"50 %"}
+{"line":8,"status":"ok","value":2000,"unit":null,"normalized":"2000"}
+{"line":9,"status":"ok","value":5000,"unit":"m","normalized":"5000 m"}
+{"line":10,"status":"ok","value":0.3,"unit":"kg","normalized":"0.3 kg"}
+{"line":11,"status":"ok","value":2.5,"unit":"kg","normalized":"2.5 kg"}
+{"line":12,"status":"ok","value":600,"unit":"s","normalized":"600 s"}
+{"line":13,"status":"ok","value":[3,5],"unit":"m","normalized":"3~5 m"}
+{"line":14,"status":"ok","value":[1000,2000],"unit":"m","normalized":"1000~2000 m"}
+{"line":15,"status":"ok","value":[3000,5000],"unit":"m","normalized":"3000~5000 m"}
+{"line":16,"status":"ok","value":12300,"unit":null,"normalized":"12300"}
+{"line":17,"status":"ok","value":90,"unit":"s","normalized":"90 s"}
+{"line":18,"status":"ok","value":172800,"unit":"s","normalized":"172800 s"}
+{"line":19,"status":"ok","value":0.5,"unit":null,"normalized":"0.5"}
+{"line":20,"status":"ok","value":700000000,"unit":null,"normalized":"700000000"}
+{"line":21,"status":"ok","value":15000,"unit":"m","normalized":"15000 m"}
+{"line":22,"status":"ok","value":200000,"unit":"kg","normalized":"200000 kg"}
+{"line":23,"status":"ok","value":3000,"unit":"m","normalized":"3000 m"}
+{"line":24,"status":"ok","value":300,"unit":"s","normalized":"300 s"}
+{"line":25,"status":"ok","value":120000,"unit":"m","normalized":"120000 m"}
+{"line":26,"status":"ok","value":7200,"unit":"s","normalized":"7200 s"}
+{"line":27,"status":"ok","value":0.5,"unit":"kg","normalized":"0.5 kg"}
+{"line":28,"status":"ok","value":[500,1000],"unit":"m","normalized":"500~1000 m"}
+{"line":29,"status":"ok","value":[3600,5400],"unit":"s","normalized":"3600~5400 s"}
+{"line":30,"status":"ok","value":3500,"unit":"kg","normalized":"3500 kg"}
+{"line":31,"status":"ok","value":[20000,30000],"unit":null,"normalized":"20000~30000"}
+{"line":32,"status":"ok","value":0.15,"unit":"m","normalized":"0.15 m"}
+{"line":33,"status":"ok","value":3.5,"unit":"%","normalized":"3.5 %"}
+{"line":34,"status":"ok","value":0.008,"unit":"m","normalized":"0.008 m"}
+{"line":35,"status":"ok","value":[15000,20000],"unit":null,"normalized":"15000~20000"}
+{"line":36,"status":"ok","value":6000,"unit":"kg","normalized":"6000 kg"}
+{"line":37,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","min"]}
+{"line":38,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","min"]}
+{"line":39,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","m^2"]}
+{"line":40,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","m^2"]}
+{"line":41,"status":"reject","code":"AMBIGUOUS_NUMBER"}
+{"line":42,"status":"reject","code":"AMBIGUOUS_NUMBER"}
+{"line":43,"status":"reject","code":"UNIT_MISMATCH"}
+{"line":44,"status":"reject","code":"INVALID_RANGE"}
+{"line":45,"status":"reject","code":"INVALID_RANGE"}
+{"line":46,"status":"reject","code":"OUT_OF_RANGE"}
+{"line":47,"status":"reject","code":"OUT_OF_RANGE"}
+{"line":48,"status":"reject","code":"OUT_OF_RANGE"}
+{"line":49,"status":"reject","code":"AMBIGUOUS_UNIT","candidates":["m","min"]}
+{"line":50,"status":"reject","code":"UNPARSEABLE"}
+{"line":51,"status":"reject","code":"UNPARSEABLE"}
+{"line":52,"status":"reject","code":"UNPARSEABLE"}
+{"line":53,"status":"reject","code":"UNPARSEABLE"}
+{"line":54,"status":"reject","code":"UNPARSEABLE"}
+{"line":55,"status":"reject","code":"UNPARSEABLE"}
+{"line":56,"status":"empty","code":"EMPTY"}
+{"line":57,"status":"empty","code":"EMPTY"}
+{"line":58,"status":"reject","code":"UNPARSEABLE"}
+{"line":59,"status":"reject","code":"UNPARSEABLE"}
+{"line":60,"status":"reject","code":"UNPARSEABLE"}
+{"line":61,"status":"reject","code":"UNPARSEABLE"}
+{"line":62,"status":"reject","code":"UNPARSEABLE"}
+{"line":63,"status":"empty","code":"EMPTY"}

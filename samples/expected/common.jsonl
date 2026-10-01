@@ -1,0 +1,20 @@
+{"line":1,"status":"ok","value":15000,"unit":null,"normalized":"15000"}
+{"line":2,"status":"ok","value":7200,"unit":"s","normalized":"7200 s"}
+{"line":3,"status":"ok","value":3000,"unit":"m","normalized":"3000 m"}
+{"line":4,"status":"ok","value":1234567,"unit":null,"normalized":"1234567"}
+{"line":5,"status":"ok","value":3.14,"unit":"m","normalized":"3.14 m"}
+{"line":6,"status":"ok","value":50,"unit":"%","normalized":"50 %"}
+{"line":7,"status":"ok","value":50,"unit":"%","normalized":"50 %"}
+{"line":8,"status":"ok","value":2000,"unit":null,"normalized":"2000"}
+{"line":9,"status":"ok","value":5000,"unit":"m","normalized":"5000 m"}
+{"line":10,"status":"ok","value":0.3,"unit":"kg","normalized":"0.3 kg"}
+{"line":11,"status":"ok","value":2.5,"unit":"kg","normalized":"2.5 kg"}
+{"line":12,"status":"ok","value":600,"unit":"s","normalized":"600 s"}
+{"line":13,"status":"ok","value":[3,5],"unit":"m","normalized":"3~5 m"}
+{"line":14,"status":"ok","value":[1000,2000],"unit":"m","normalized":"1000~2000 m"}
+{"line":15,"status":"ok","value":[3000,5000],"unit":"m","normalized":"3000~5000 m"}
+{"line":16,"status":"ok","value":12300,"unit":null,"normalized":"12300"}
+{"line":17,"status":"ok","value":90,"unit":"s","normalized":"90 s"}
+{"line":18,"status":"ok","value":172800,"unit":"s","normalized":"172800 s"}
+{"line":19,"status":"ok","value":0.5,"unit":null,"normalized":"0.5"}
+{"line":20,"status":"ok","value":700000000,"unit":null,"normalized":"700000000"}

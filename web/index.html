@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>parsebot 解析结果</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>parsebot 解析结果</h1>
+  <div id="summary">加载中…</div>
+  <div id="distribution"></div>
+</header>
+<main>
+  <table id="result-table">
+    <thead>
+      <tr>
+        <th class="col-line">行号</th>
+        <th class="col-text">原文</th>
+        <th class="col-value">数值</th>
+        <th class="col-unit">标准单位</th>
+        <th class="col-norm">规范化</th>
+        <th class="col-status">状态 / 原因</th>
+      </tr>
+    </thead>
+    <tbody id="result-body"></tbody>
+  </table>
+  <div class="pager">
+    <button id="load-more" type="button" hidden>加载更多（每次 2000 行）</button>
+    <span id="rendered-count"></span>
+  </div>
+</main>
+<script type="module" src="main.js"></script>
+</body>
+</html>
