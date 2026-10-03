@@ -1,0 +1,180 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #1f2329;
+  background: #f5f6f8;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 22px;
+}
+
+.hint {
+  margin: 0 0 20px;
+  color: #646a73;
+  font-size: 13px;
+}
+
+#summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dee0e3;
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-width: 120px;
+}
+
+.card .label {
+  color: #646a73;
+  font-size: 12px;
+}
+
+.card .number {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.card.success .number {
+  color: #1a7f37;
+}
+
+.card.reject .number {
+  color: #cf222e;
+}
+
+.reasons {
+  flex: 1 1 360px;
+  min-width: 320px;
+}
+
+.reason-row {
+  display: grid;
+  grid-template-columns: 180px 1fr 56px;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.bar {
+  height: 10px;
+  border-radius: 5px;
+  background: #ffe0e3;
+}
+
+.bar > span {
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+  background: #cf222e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid #dee0e3;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid #eceef1;
+  vertical-align: top;
+}
+
+th {
+  background: #f0f1f3;
+  font-size: 12px;
+  color: #646a73;
+}
+
+.col-line {
+  width: 64px;
+}
+
+.col-unit {
+  width: 90px;
+}
+
+.col-value,
+.col-normalized {
+  font-variant-numeric: tabular-nums;
+}
+
+.source {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+tr.reject {
+  background: #fff1f2;
+}
+
+tr.reject td {
+  color: #a40e26;
+}
+
+tr.empty {
+  color: #646a73;
+  background: #fafafa;
+}
+
+.status-ok {
+  color: #1a7f37;
+}
+
+.code {
+  font-weight: 600;
+}
+
+.candidates {
+  display: block;
+  margin-top: 2px;
+  color: #8b1e2d;
+  font-size: 12px;
+}
+
+.pager {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 16px 0 32px;
+}
+
+button {
+  padding: 8px 16px;
+  border: 1px solid #2f6feb;
+  border-radius: 6px;
+  background: #2f6feb;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+#error {
+  color: #cf222e;
+  font-weight: 600;
+}

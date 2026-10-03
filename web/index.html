@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>数值与单位解析结果</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>数值与单位解析结果</h1>
+      <p class="hint">
+        数据来自引擎输出 <code>data.jsonl</code>；原文来自同目录 <code>data.txt</code>，
+        所有数值与原因码均取自引擎。
+      </p>
+    </header>
+
+    <section id="summary" aria-label="总体统计"></section>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-line">行号</th>
+            <th class="col-source">原文</th>
+            <th class="col-value">解析数值</th>
+            <th class="col-unit">标准单位</th>
+            <th class="col-normalized">规范化结果</th>
+            <th class="col-status">状态 / 原因</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div class="pager">
+        <span id="rendered-count"></span>
+        <button id="load-more" type="button">加载更多</button>
+      </div>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
